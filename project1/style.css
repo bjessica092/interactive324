@@ -7,4 +7,21 @@ body {
 body {
 	background-color: rgb(1, 1, 25);
 }
+#half {
+	transform: rotate(10deg);
+}
+#one-twenty {
+	position: absolute;
+	top: 25%;
+	display: none;
 
+}
+#one-twenty:hover {
+	display: block;
+}
+.number {
+	display: none;
+}
+.number:hover {
+	display: block;
+}
