@@ -48,10 +48,8 @@ body {
 		left: 30%;
 		transform: rotate(-10deg);
 	}
-	#thirty-five {
+	#thirty-five:hover + #thirty-five-gif {
 		display: block;
-		background: url(assets/images/lips_comp.gif);
-	
 	}
 	#seven-fifty {
 		top: 78%;
