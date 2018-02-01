@@ -7,21 +7,98 @@ body {
 body {
 	background-color: rgb(1, 1, 25);
 }
-#half {
-	transform: rotate(10deg);
-}
-#one-twenty {
-	position: absolute;
-	top: 25%;
-	display: none;
-
-}
-#one-twenty:hover {
+#title-div {
+	position: absolute;	
 	display: block;
+	top: 40%;
+	z-index: -1;
 }
 .number {
-	display: none;
+	position: absolute;
+	display: inline-block;
+	z-index: 1;
+}
+.gif {
+	position: absolute;
+	display: block;
+	z-index: 1;
+}
+
+.number {
+	opacity: 0;
 }
 .number:hover {
-	display: block;
+	opacity: 1;
+}
+
+@media screen and (max-width: 1024px){
+
+	#half {
+		left: 75%;
+		top: 55%;
+		transform: rotate(10deg);
+	}
+	#four {
+		top: 1%;
+		left: 5%;
+		transform: rotate(8deg);
+	}
+	#thirty-five {
+		top: 20%;
+		left: 30%;
+		transform: rotate(-10deg);
+	}
+	#thirty-five {
+		display: block;
+		background: url(assets/images/lips_comp.gif);
+	
+	}
+	#seven-fifty {
+		top: 78%;
+		right: 10%;
+		transform: rotate(-10deg);
+	}
+	#eighty-two {
+		top: 55%;
+		right: 85%;
+	}
+	#one-twenty {
+		top: 5%;
+		right: 35%;
+	}
+	#seventy-one {
+		left: 23%;
+		top: 58%;
+		transform: rotate(3deg);
+	}
+	#fourty-three {
+		left: 3%;
+		top: 70%;
+		transform: rotate(-8deg);
+	}
+	#ten {
+		right: 2%;
+		top: 1%;
+	}
+	#two-four-six {
+		top: 22%;
+		right: 10%;
+		transform: rotate(3deg);
+	}
+	#two {
+		bottom: 5%;
+		left: 33%;
+	}
+	#twenty-three {
+		top: 20%;
+		transform: rotate(2deg);
+	}
+	#two-hundred {
+		bottom: 28%;
+		right: 25%;
+	}
+	#thirty-five-gif {
+		display: none;
+		top: 1%;
+	}
 }
