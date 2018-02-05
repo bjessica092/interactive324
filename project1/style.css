@@ -13,16 +13,13 @@ body {
 	top: 40%;
 	z-index: -1;
 }
+
 .number {
 	position: absolute;
 	display: inline-block;
-	z-index: 1;
+
 }
-.gif {
-	position: absolute;
-	display: block;
-	z-index: 1;
-}
+
 
 .number {
 	opacity: 0;
@@ -44,6 +41,8 @@ body {
 		transform: rotate(8deg);
 	}
 	#thirty-five {
+		font-family: Futura, sans-serif;
+		font-size: 10%;
 		top: 20%;
 		left: 30%;
 		transform: rotate(-10deg);
