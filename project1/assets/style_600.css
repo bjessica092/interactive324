@@ -1,0 +1,41 @@
+style.css
+
+body {
+	margin: 0;
+}
+
+a:hover {
+	color: white;
+}
+
+#megaphone {
+	position: absolute;
+	z-index: -3;
+}
+
+body {
+	background-image: url("images/mobile.gif");
+	background-size: 100%;
+}
+.breaks2 {
+	display: block;
+}
+.number {
+	width: 60%;
+}
+#top {
+	display: none;
+}
+.gif {
+	display: none;
+}
+#title-div {
+	position: fixed;
+	top: 1%;
+}
+
+#footnote {
+	color: grey;
+	font-family: Futura, Gill Sans, sans-serif;
+	font-size: 60%;
+}
