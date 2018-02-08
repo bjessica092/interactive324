@@ -24,7 +24,7 @@ body {
 #title {
 	position: absolute;	
 	display: block;
-	top: 42%;
+	top: 49%;
 	z-index: 4;
 	margin-left: auto;
 	margin-right: auto;
@@ -44,15 +44,17 @@ body {
 	opacity: 0;
 	position: absolute;
 	display: inline-block;
+	transition: width 1s;
 }
 .number:hover {
 	opacity: 1;
+	width: 40%;
 }
 
 /*numbers by id + gifs*/
 
 #half {
-	left: 75%;
+	right: 1%;
 	top: 55%;
 	transform: rotate(10deg);
 }
@@ -140,7 +142,7 @@ body {
 }
 #eighty-two {
 	top: 57%;
-	right: 83%;
+	left: 1%;
 }
 #eighty-two-gif {
 	display: none;

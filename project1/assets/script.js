@@ -1,9 +1,10 @@
 console.log('My JS is working.');
 console.log('Congrats on your first real JS!!!');
 
+
 if (screen.width <= 1025) {
 
-	
+
 }
 else {
 function PlaySound(audio) {
