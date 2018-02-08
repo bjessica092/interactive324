@@ -21,7 +21,7 @@
 			</div>
 			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
 
-	<img id="half" class="number" src="assets/images/half.png" width=25%>
+	<img id="half" class="number" src="assets/images/half.png" width=25% onmouseover="PlaySound('audio-half')" onclick="PlaySound('audio-half')" onmouseout="StopSound('audio-half')">
 	<img id="half-gif" class="gif" src="assets/images/lips_comp_half.gif" width=100%>
 		<div class="breaks"> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
 		<div class="breaks breaks2"> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
@@ -77,6 +77,18 @@
 		<div class="breaks"> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
 	
 	<p id="footnote">Note: All statistics adapted from <a href="http://www.unwomen.org/en/what-we-do/ending-violence-against-women/facts-and-figures"> "Facts and Figures: Ending violence against women" published by UN Women.</a> </p>
+
+	<!--audio files, to be fetched by JS-->
+	<audio id="audio-half" class="audio">
+		<source src="assets/audio/half.mp3"></source>
+		<source src="assets/audio/half.ogg"></source>
+	</audio>
+
+
+	<script type="text/javascript" src="assets/script.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script></script>
+
 
 </body>
 
