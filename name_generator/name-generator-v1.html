@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Make sense do it</title>
+	
+	<!-- 
+	***** START CSS ***** 
+	-->
+	<style>
+
+		/* You can change the colors, font, and so on below */
+
+		body {
+			margin: 75px;
+			font-size: 100px;
+			text-transform: uppercase;
+			font-family: Helvetica, sans-serif;
+			color: darkblue;
+			background-image: url("Users/jbrown15/Desktop/8.jpg");
+		}
+
+		.button-container {
+			position: fixed;
+			top: 400px;
+			left: 75px;
+			width: 30px;
+		}
+		button {
+			color: white;
+			background: rebeccapurple;
+		}
+
+		.list-one {
+
+		}
+
+		.list-two {
+		}
+
+		.list-three {
+		}
+
+		.list-four {
+		}
+
+	</style>
+	<!-- 
+	***** END CSS ***** 
+	-->
+
+
+	<!-- 
+	***** START JAVASCRIPT ***** 
+	-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			// list one content
+			var one = [
+				"in A Borderless respect,",
+				"in A Recyclable growth,",
+				"in All traffic,",
+				"in An Accessible family,",
+				"in A Hypnotic power,",
+				"in A Hazardous family,",
+				"in A Fit sunrise,",
+				"in A Red legend,",
+				"in A Blue fuel,",
+				"in An Only king,",
+				"in Outgoing regulations,"
+
+			];
+
+			// list two content
+			var two = [
+				"Burn center",
+				"Activating the gate",
+				"Shock river",
+				"Trek department",
+				"Wrangler tundra",
+				"Located events",
+				"Activated maps",
+				"Escape pavilion",
+				"Accord cottage",
+				"Noticing Oregon",
+				"Crown outlet"
+
+			];
+
+			// list three content
+			var three = [
+				"is the only Burn respect",
+				"is the only Located growth",
+				"is the only Shock traffic",
+				"is the only Boxer family",
+				"is the only Wrangler power",
+				"is the only Activate sunrise",
+				"is the only Notice legend",
+				"is the only Trek fuel",
+				"is the only Escape king",
+				"is the only Crown regulations"
+
+			];
+
+			// list four content
+			var four = [
+				"when there's a Borderless center",
+				"when there's Recyclable events",
+				"when there's All tundra",
+				"when there's an Accessible outlet",
+				"when there's a Hypnotic center",
+				"when there's a Hazardous pavilion",
+				"when there's a Fit department",
+				"when there's a Red river",
+				"when there's Blue maps",
+				"when there's the Only gate",
+				"when there's an Outgoing Oregon"
+
+			];
+
+			// This is a very common randomizing function.
+			// It takes a list (array) and returns one at random.
+			function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			}
+
+			function generate(){
+
+				// Select a random item from each list
+				var selected_one = select_random(one);
+				var selected_two = select_random(two);
+				var selected_three = select_random(three);
+				var selected_four = select_random(four);
+
+				// Take the selected (random) item from list and make it visible
+				$('.list-one').html(selected_one);
+				$('.list-two').html(selected_two);
+				$('.list-three').html(selected_three);
+			    $('.list-four').html(selected_four);
+
+			}
+
+			$('button').click(function(){
+				generate();
+			});
+
+			generate();
+			
+		});
+
+	</script>
+	<!-- 
+	***** END JAVASCRIPT ***** 
+	-->
+
+</head>
+
+<body>
+
+	<!--
+	This is the button.
+	-->
+	<div class="button-container">
+		<button>TELL ME</button>
+	</div>
+
+	<!--
+	This is the visible portion.
+
+	If you want your words or phrases to go side-by-side, change...
+
+	<div></div>
+	to
+	<span></span>
+
+	in the code below.
+	-->
+	<div class="list-one"></div>
+	<div class="list-two"></div>
+	<br /><br />
+	<div class="list-three"></div>
+	<div class="list-four"></div>
+
+</body>
+
+</html>
