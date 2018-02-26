@@ -1,11 +1,11 @@
 style.css
 
 body {
-  background: darkblue;
+  margin: 0;
 }
   
   body {
-  background: darkblue;
+  background-color: darkblue;
 }
 
 h1, h2, h3, h4, a, p {
