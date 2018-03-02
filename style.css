@@ -13,6 +13,9 @@ body {
 
 h1, h2, h3, h4, a, p {
   font-family: Georgia, Garamonde, serif;
-  color: orange;
+  color: white;
+  display: block;
+  position: relative;
+  left: 30%;
 }
 
