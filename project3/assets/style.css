@@ -2,12 +2,50 @@ style.css
 
 body {
 	margin: 0;
+	background-color: black;
 }
-
-p {
-	color: blue;
-}
-
 body {
 	background-color: black;
+}
+
+img {
+	display: block;
+	position: absolute;
+}
+
+.still {
+	opacity: 1;
+}
+.move {
+	z-index: 2;
+	opacity: 0;
+}
+.move:hover {
+	opacity: 1;
+}
+.move:hover + .still {
+	opacity: 0;
+}
+
+/*image position*/
+.collection {
+	left: 30%;
+	top: 15%;
+}
+.lizard {
+	left: 50%;
+	top: -38%;
+}
+.fortune {
+	left: 10%;
+	top: 40%;
+}
+
+
+/*correct foreground/background*/
+#lizard {
+	z-index: 3;
+}
+#lizard-gif {
+	z-index: 4;
 }
