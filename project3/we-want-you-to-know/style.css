@@ -1,0 +1,40 @@
+style.css
+body {
+	margin: 0;
+	background-color: black;
+}
+body {
+	background-color: black;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	padding: 5%;
+	width: 50%;
+}
+a {
+	display: block;
+	position: absolute;
+	font-size: 30px;
+	font-family: Futura, Gill Sans, sans-serif;
+	text-decoration: none;
+
+}
+.right {
+	left: 85%;
+}
+.left {
+	left: 10%;
+}
+
+.screenshot {
+	border:1px solid white;
+	padding: 0;
+}
+.wide {
+	width: 80%;
+}
+#tablet {
+	width: 40%;
+}

@@ -14,38 +14,115 @@ img {
 }
 
 .still {
+	z-index: 2;
 	opacity: 1;
+	
 }
 .move {
-	z-index: 2;
+	z-index: 1;
 	opacity: 0;
 }
-.move:hover {
+.still:hover {
+	opacity: 0;
+}
+.still:hover + .move {
 	opacity: 1;
 }
-.move:hover + .still {
-	opacity: 0;
-}
+
 
 /*image position*/
+
 .collection {
 	left: 30%;
-	top: 15%;
+	top: 10%;
 }
 .lizard {
 	left: 50%;
 	top: -38%;
 }
 .fortune {
-	left: 10%;
+	left: 5%;
 	top: 40%;
 }
+.alive {
+	transform: rotate(-20deg);
+	left: 5%;
+	bottom: 7%;
+}
+.paper {
+	bottom: 0%;
+	right: 0%;
+}
+#paper {
+	right: 22%;
+	bottom: 10%;
+	transform: rotate(10deg);
+}
+.proximity {
+	left: 15%;
+	top: 0%;
+}
+.butterfly {
+	bottom: 0%;
+	left: 35%;
+}
 
+/*LIVE animation*/
 
-/*correct foreground/background*/
-#lizard {
+.hide {
 	z-index: 3;
 }
-#lizard-gif {
+.hide:hover + .alive {
+	animation: move linear 4s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes move {
+	0% {
+		left: 5%;
+		bottom: 7%;
+		width: 35%;
+	}
+	70% {
+		left: 50%;
+		bottom: 60%;
+		transform: rotate(-40deg);
+		width: 5%;
+	}
+	80% {
+		left: -20%;
+		bottom: 0%;
+		
+		width: 10%;
+	}
+	100% {
+		left: 5%;
+		bottom: 7%;
+		width: 35%;
+	}
+
+}
+
+
+/*correct foreground-background*/
+#lizard {
 	z-index: 4;
+}
+#lizard-gif {
+	z-index: 3;
+}
+#alive {
+	z-index: -2;
+}
+#paper {
+	z-index: 6;
+}
+#paper-gif {
+	z-index: -3;
+}
+#proximity {
+	z-index: 0;
+}
+#proximity-gif {
+	z-index: -1;
 }
