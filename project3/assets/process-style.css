@@ -1,0 +1,65 @@
+style.css
+body {
+	margin: 0;
+	background-color: black;
+}
+body {
+	background-color: black;
+}
+
+/*style for ALL*/
+
+.process {
+	display: block;
+	margin: 0 auto;
+	padding: 2%;
+	width: 60%;
+}
+.link {
+	display: block;
+	position: fixed;
+	top: 45%;
+}
+#right {
+	right: 2%;
+}
+#left {
+	left: 3%;
+}
+.wide {
+	width: 70%;
+}
+#tablet {
+	width: 40%;
+}
+/*for collection*/
+.screenshot {
+	border:1px solid white;
+	padding: 0;
+}
+
+/*for whats it like*/
+.meme {
+	width: 34%;
+	display: inline-block;
+	padding: 2%;
+}
+#memes {
+	margin-left: 18%;
+}
+
+/*for fortune*/
+
+#collab {
+	width: 35%;
+	position: relative;
+	left: 10%;
+	
+}
+
+
+
+
+
+
+
