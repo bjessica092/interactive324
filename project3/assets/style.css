@@ -33,38 +33,54 @@ img {
 /*image position*/
 
 .collection {
-	left: 30%;
-	top: 10%;
+	left: 35%;
+	top: 13%;
+	transform: rotate(-50deg);
+
 }
 .lizard {
-	left: 50%;
-	top: -38%;
+	left: 58%;
+	top: -48%;
 }
 .fortune {
-	left: 5%;
-	top: 40%;
+	left: 8%;
+	top: 32%;
 }
 .alive {
 	transform: rotate(-20deg);
-	left: 5%;
+	left: 10%;
 	bottom: 7%;
 }
-.paper {
+.proximity {
+	left: 10%;
+	top: 0%;
+}
+#paper-gif {
 	bottom: 0%;
 	right: 0%;
 }
 #paper {
-	right: 22%;
-	bottom: 10%;
-	transform: rotate(10deg);
+	right: 14%;
+	bottom: 12%;
+	transform: rotate(8deg);
 }
-.proximity {
-	left: 15%;
-	top: 0%;
+#paper2 {
+	right: 14%;
+	bottom: 12%;
+	transform: rotate(28deg);
+}
+#paper3 {
+	right: 14%;
+	bottom: 8%;
+	transform: rotate(-38deg);
 }
 .butterfly {
-	bottom: 0%;
-	left: 35%;
+	bottom: 5%;
+	left: 44%;
+}
+.hand {
+	left: 55%;
+	top: 30%;
 }
 
 /*LIVE animation*/
@@ -121,8 +137,20 @@ img {
 	z-index: -3;
 }
 #proximity {
-	z-index: 0;
+	z-index: -1;
 }
 #proximity-gif {
+	z-index: -2;
+}
+#hand {
+	z-index: 7;
+}
+#hand-gif {
+	z-index: 6;
+}
+#butterfly {
 	z-index: -1;
+}
+#butterfly-gif {
+	z-index: -2;
 }
