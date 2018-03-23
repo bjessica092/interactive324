@@ -221,6 +221,7 @@ img {
 @media only screen and (max-width: 1024px) and (orientation: portrait) {
 	body {
 		overflow: visible;
+		width: 100%;
 	}
 
 	#alive {
@@ -350,6 +351,7 @@ img {
 
 }
 
+/*shouldnt be any device that is landscape and smaller than 768*/
 
 @media only screen and (max-width: 480px) {
 	.lizard {
@@ -366,9 +368,9 @@ img {
 	}
 }
 
-@media only screen and (max-width: 300px) {
-	body {
-		background-color: white;
-	}
-}
+/*the 480 settings work for smaller sizes too*/
+
+
+
+
 
