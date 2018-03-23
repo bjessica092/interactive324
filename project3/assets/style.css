@@ -364,6 +364,17 @@ img {
 	}
 	.fortune {
 		top: 150%;
+		width: 50%;
+	}
+	.hand {
+		width: 40%;
+	}
+	.alive {
+		width: 95%;
+	}
+	.poem {
+		width: 50%;
+		left: -5%;
 	}
 }
 
