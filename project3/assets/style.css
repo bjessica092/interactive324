@@ -6,7 +6,6 @@ body {
 }
 body {
 	background-color: black;
-	overflow: hidden;
 }
 
 img {
@@ -166,8 +165,8 @@ img {
 /*screens*/
 
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
-	body {
-		overflow: visible;
+	html, body {
+		overflow-x: hidden;
 	}
 
 	#alive {
@@ -219,9 +218,8 @@ img {
 }
 
 @media only screen and (max-width: 1024px) and (orientation: portrait) {
-	body {
-		overflow: visible;
-		width: 100%;
+	html, body {
+		overflow-x: hidden;
 	}
 
 	#alive {
