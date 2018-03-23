@@ -13,10 +13,12 @@ img {
 	position: absolute;
 }
 
+/*320, 480, 600, 768, 1024 px*/
+
+@media (hover: hover) {
 .still {
 	z-index: 2;
 	opacity: 1;
-	
 }
 .move {
 	z-index: 1;
@@ -28,7 +30,13 @@ img {
 .still:hover + .move {
 	opacity: 1;
 }
+}
 
+@media (hover: none) {
+.still {
+	opacity: 0;
+}
+}
 
 /*image position*/
 
@@ -36,7 +44,6 @@ img {
 	left: 35%;
 	top: 13%;
 	transform: rotate(-50deg);
-
 }
 .lizard {
 	left: 58%;
@@ -48,8 +55,8 @@ img {
 }
 .alive {
 	transform: rotate(-20deg);
-	left: 10%;
-	bottom: 7%;
+	left: 5%;
+	bottom: 3%;
 }
 .proximity {
 	left: 10%;
@@ -81,6 +88,11 @@ img {
 .hand {
 	left: 55%;
 	top: 30%;
+}
+.poem {
+	top: 60%;
+	left: 34%;
+	transform: rotate(-115deg);
 }
 
 /*LIVE animation*/
