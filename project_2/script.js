@@ -1,5 +1,9 @@
+alert('If you do not hear audio, please enable autoplay in your browser\'s settings.');
+
+
 //verb (future) array
 //verb (present)
+
 var verb = ["eat", "sit on", "touch", "run towards", "attack", "accommodate", "respect", "answer", 
             "modify", "freak out", "write on", "reflect", "vote for", "breathe on", "validate", "injure", 
             "invest in", "burn", "generate", "illuminate", "stare at", "attack", "admire", "buy", 
