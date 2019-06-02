@@ -1,6 +1,8 @@
 console.log('My JS is working.');
 console.log('Congrats on your first real JS!!!');
 
+alert('If you do not hear audio when hovering over the numbers, please enable autoplay in your browser\'s settings.');
+
 
 if (screen.width <= 1025) {
 
